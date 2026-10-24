@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffc2d6">
+<title>For you baby</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-stage="intro">
+<div class="bunting"></div>
+<canvas id="fx"></canvas>
+
+<main class="window">
+  <div class="tb"><span>FOR_BABY.exe</span><span aria-hidden="true"><i>_</i><i>□</i><i>×</i></span></div>
+  <div class="content">
+
+    <!-- 1. Intro: For Baby + cake + mail -->
+    <section class="s s-intro">
+      <h1>For Baby &#9829;&#xFE0E;</h1>
+      <div id="cake" class="cake"></div>
+      <div class="env" id="env">
+        <div class="back"></div><div class="paper">&#9829;&#xFE0E;</div><div class="front"></div><div class="flap"></div>
+      </div>
+      <button class="btn" id="open">Open</button>
+    </section>
+
+    <!-- 2. The long letter (edit the text below) -->
+    <section class="s s-letter">
+      <h2>Happy Birthday baby &#9829;&#xFE0E;</h2>
+      <article class="letter">
+        <p>Happy birthday baby,</p>
+        <p>Sorry if wala akong maibibigay pero etong system nato ay para sayo kahit vibecode lang ito basta may maibibigay ako sayo hehe</p>
+        <p>debale happy birthday sayo baby thank you sa pagtanggap sakin kahit may pagka isip bata man ako at ayun adik sa paglalaro pero still love padin naman kita baby eh hehe</p>
+        <p>debale andito ako lagi sayo para magpa baby este mahalin pala HAHAHAHAHAHAH</p>
+        <p>debale ikaw lang yung babae na nagtagal sakin halos ako lagi nagsisimula ng away kaya even ganun ako di kita papalitan sa iba hehehe</p>
+        <p>debale enjoy your day baby mamaya malalaman nila ng mga magulang mo na bday mo pala HHAHAHAHHA pero kumain kain ka ha?</p>
+        <p>ingat ka jan lagi baby i love you so much baby ingat ka jan and enjoy your day baby 😘😘😘</p>
+        <p class="sign">yours,<br>marko.vibedev</p>
+      </article>
+      <button class="btn" id="next">Next</button>
+    </section>
+
+    <!-- 3. Photos -->
+    <section class="s s-photos">
+      <h2>Our little memories &#9829;&#xFE0E;</h2>
+      <figure class="polaroid"><img id="ph" alt="Us together"></figure>
+      <div class="nav">
+        <button class="btn sm" id="prev" aria-label="Previous photo">&lsaquo;</button>
+        <span id="dots"></span>
+        <button class="btn sm" id="fwd" aria-label="Next photo">&rsaquo;</button>
+      </div>
+      <p class="end">I love you, Baby &#9829;&#xFE0E;</p>
+    </section>
+
+  </div>
+</main>
+
+<div id="pop"><div class="popbox"><span>Happy Birthday</span><span>baby &#9829;&#xFE0E;</span></div></div>
+<script src="script.js"></script>
+</body>
+</html>
